@@ -7,6 +7,6 @@ f2=Conjugate[Fourier[a2]]
 
 ff=f1*f2
 
-c1 = Re[InverseFourier[ff]]/(Norm[b1] Norm[b2]);
+c1 = Re[InverseFourier[ff]]/(Norm[a1] Norm[a2]);
 
 
